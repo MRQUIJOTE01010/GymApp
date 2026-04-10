@@ -1,0 +1,103 @@
+# 🔧 .NET / C# Git Ignore
+
+# Build results
+
+bin/
+obj/
+
+# User-specific files
+
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Visual Studio Code
+
+.vscode/
+
+# Visual Studio
+
+.vs/
+
+# Rider
+
+.idea/
+
+# Logs
+
+*.log
+
+# SQLite database (opcional, si no quieres subir la DB)
+
+*.db
+*.db-shm
+*.db-wal
+
+# Entity Framework migrations snapshot (opcional)
+
+# Migrations/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# NuGet packages
+
+*.nupkg
+packages/
+
+# Dotnet CLI tools
+
+.dotnet/
+
+# Coverage reports
+
+coverage/
+*.coverage
+*.coveragexml
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# Resharper
+
+_ReSharper*/
+*.DotSettings.user
+
+# Publish output
+
+publish/
+
+# Node (por si luego agregas frontend)
+
+node_modules/
+
+# Environment variables
+
+.env
+
+# Backup files
+
+*.bak
+*.backup
+
+# Generated files
+
+Generated/
+
+# Test results
+
+TestResults/
+
+# SQLite local files
+
+*.sqlite
+*.sqlite3
+
+# EF Core
+
+*.db-journal
